@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Noto Sans HK', sans-serif;
+}
+#home
+{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url('../img/bg-banner03.jpg');
+	min-height: 650px;
+}
+.container
+{
+	width: 1170px;
+	margin: auto;
+	
+}
+header
+{
+	width: 100%;
+	padding: 20px 0;
+	
+}
+.logo
+{
+	float: left;
+	font-size: 43px;
+	color:#fff;
+	font-family: monotype corsiva;
+}
+nav
+{
+	float: right;
+}
+nav ul
+{
+	list-style: none;
+	padding-top: 15px;
+}
+nav ul li
+{
+	display: inline;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	font-size: 14px;
+
+}
+.bg1
+{
+	margin: 116px 5px;
+	color: #fff;
+}
+.bg1 h1
+{
+	border-left:5px solid red;
+	padding: 24px;
+	font-size: 37px;
+	
+}
+.bg1 h1 span
+{
+	font-family:monotype corsiva;
+}
+.arrow
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border:1px solid #fff;
+	margin: 75px auto;
+	padding-top: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+.clear
+{
+	clear: both;
+}
+#main
+{
+	background:url('../img/about-banner.jpg');
+	min-height: 400px;
+	
+}
+.about1
+{
+	width: 50%;
+	float: left;
+
+
+}
+.about1 p
+{
+	float: right;
+	font-size: 25px;
+	margin-top: 50px;
+	border-right: 5px solid red;
+	padding: 10px;
+	color: #444;
+}
+.about1 span
+{
+	font-family: monotype corsiva;
+}
+.about2
+{
+	width: 50%;
+	float:right;
+}
+.about2 p
+{
+ 
+ font-size: 15px;
+ padding: 20px;
+ color: #444;
+ 
+}
+.about2 ul
+{
+list-style: none;
+
+}
+.about2 ul li
+{
+	padding: 2px 60px;
+	font-size: 18px;
+	color: #444;
+}
+
+	
+
+.container h2
+{
+ text-align: center;
+ color:#444;
+ widows: 100%;
+ padding: 60px 0;
+ font-weight: 100;
+ width: 100%
+
+}
+.gallery span
+{
+	font-family: monotype corsiva;
+
+}
+.grid 
+{
+ background: #red;	
+}
+.grid-left
+{
+	
+	width: 32.5%;
+	float: left;
+	min-height: 1400px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 10px;
+	margin-right: 15px;
+}
+
+.g1
+{
+	background:url('../img/1.jpg');
+	background-size: cover;
+	grid-row: 1/4;
+}
+.g2
+{
+	background:url('../img/2.jpg');
+	background-size: cover;
+}
+.g3
+{
+	background:url('../img/3.jpg');
+	background-size: cover;
+	
+}
+.g4
+{
+	background:url('../img/4.jpg');
+	background-size: cover;
+	grid-row: 4/8;
+	grid-row: 4;
+}
+.grid-mid
+{
+	
+	width: 32.5%;
+	float:left;
+	min-height: 1400px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto auto;
+	grid-gap: 10px;
+	margin-right: 10px;
+}
+.g5
+{
+	background:red;
+	background:url('../img/5.jpg');
+	background-size: cover;
+}
+.g6
+{
+	background:red;
+	background:url('../img/3.jpg');
+	background-size: cover;
+}
+.g7
+{
+	background:red;
+	background:url('../img/2.jpg');
+	background-size: cover;
+}
+.g8
+{
+	background:white;
+	grid-row: 4/7;
+	background:url('../img/1.jpg');
+	background-size: cover;
+
+}
+.g9
+{
+	background:white;
+	
+}
+.grid-right
+{
+	
+	width: 32.5%;
+	float:right;
+	min-height: 1500px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto auto 200px;
+	grid-gap: 10px;
+}
+.g10
+{
+	background:red;
+	background:url('../img/3.jpg');
+	background-size: cover;
+}
+.g11
+{
+	background:red;
+	grid-row: 2/6;
+	background:url('../img/1.jpg');
+	background-size: cover;
+}
+.g12
+{
+	background:red;
+	background:url('../img/5.jpg');
+	background-size: cover;
+}
+.g13
+{
+	background:red;
+	background:url('../img/13.jpg');
+	background-size: cover;
+}
+.g14
+{
+	background:red;
+	background:url('../img/5.jpg');
+	background-size: cover;
+}
+
+.client
+{
+ margin-top: 60px;
+ color: #444;
+ 
+ width: 100%
+
+}
+
+.client p
+{
+	text-align: center;
+	font-size: 22px;
+}
+.client  p span
+{
+	font-family: monotype corsiva;
+	padding: 0px 5px;
+}
+.cleft
+{  
+	width:32%;
+	float: left;
+	padding-top: 40px;
+	margin-right: 40px;
+	position: relative;
+}
+.cleft p:before
+{
+	content: '';
+	position: absolute;
+	bottom: -35px;
+	left: 10%;
+	border-width:18px;
+	border-style:solid ;
+	border-color: #eee transparent transparent transparent;
+}
+.cleft p 
+{
+	font-size: 14px;
+	padding: 10px;
+	text-align: justify;
+	border-left: 5px solid #aaa;
+	background: #eee;
+
+}
+.cmid
+{  
+	width:32%;
+	float: left;
+	padding-top: 40px;
+}
+.cmid p 
+{
+	font-size: 14px;
+	padding: 10px;
+	text-align: justify;
+	border-left: 5px solid #aaa;
+	background: #eee;
+	margin-right: 28px;
+	position: relative;
+
+}
+.cmid p:before
+{
+	content: '';
+	position: absolute;
+	bottom: -35px;
+	left: 10%;
+	border-width:18px;
+	border-style:solid ;
+	border-color: #eee transparent transparent transparent;
+}
+.cright
+{  
+	width:32%;
+	float: right;
+	padding-top: 40px;
+}
+.cright p 
+{
+	font-size: 14px;
+	padding: 10px;
+	text-align: justify;
+	border-left: 5px solid #aaa;
+	background: #eee;
+	position: relative;
+
+}
+.cright p:before
+{
+	content: '';
+	position: absolute;
+	bottom: -35px;
+	left: 10%;
+	border-width:18px;
+	border-style:solid ;
+	border-color: #eee transparent transparent transparent;
+}
+
+.john div
+{
+	float: left;
+    margin-top: 30px;
+    
+	}  
+.doe1 , .doe2
+{
+	margin-right: 275px;
+}
+.john p 
+{
+	color: #333;
+}
+.john span
+{
+	color: #222;
+}
+.form
+{
+	background: #222;
+	min-height: 500px;
+	width: 100%;
+	margin-top: 115px;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+}
+.form p
+{
+	padding-top: 70px;
+}
+.form p span
+{
+	font-family: monotype corsiva;
+	font-family: 25px;
+
+}
+.lorem
+{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+
+}
+#form
+{
+	text-align: center;
+	
+	padding: 20px 0;
+}
+.form-bg
+{
+	background: red;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+}
+.input
+{
+	padding: 5px;
+	border-radius: 5px;
+}
+textarea
+{
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+footer
+{
+  padding: 30px 0;
+  width: 100%;
+  min-height: 120px;
+}
+.copyright
+{
+	color: #333;
+	font-size: 16px;
+	float: left;
+}
+.copyright span
+{
+	color: red;
+}
+.social
+{
+	float: right;
+}
+.social div
+{
+	float: left;
+	color: #ccc;
+	font-size: 30px;
+	padding: 0 10px;
+	font-size: 24px;
+}
+.social div :hover
+{
+	color: #aaa;
+}
